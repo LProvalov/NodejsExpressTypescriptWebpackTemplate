@@ -1,0 +1,4 @@
+data/db/
+bin/
+node_modules/
+server/data/db/
