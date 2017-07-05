@@ -20,7 +20,6 @@ export class IndexRoute extends BaseRoute{
             "message": "hello world"
         };
 
-        //res.send(options["message"]);
         res.sendFile(path.join(global['publicRoot'] + '/index.html'));
     }
 }

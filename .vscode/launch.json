@@ -8,9 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/bin/src/app.js",
+            "program": "${workspaceRoot}/bin/server/src/app",
             "outFiles": [
-                "${workspaceRoot}/bin/**/*.js"
+                "${workspaceRoot}/bin/server/**/*.js"
             ]
         },
         {

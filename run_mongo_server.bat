@@ -1,1 +1,1 @@
-"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath data/db --httpinterface --rest
+"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath server/data/db --httpinterface --rest
