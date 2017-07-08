@@ -10,7 +10,7 @@ class App{
     private httpPort: number;
 
     constructor(){
-        this.httpPort = this.normalizePort(process.env.PORT || 3000);
+        this.httpPort = this.normalizePort(process.env.PORT || ""+3000);
         this.server = Server.bootstrap(this.httpPort);        
     }
 

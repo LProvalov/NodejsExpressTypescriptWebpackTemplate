@@ -10,7 +10,7 @@ export class SocketService {
     }
 
     private initSocket(){
-        this.socket = new socketIo(SERVICE_URL);
+        this.socket = socketIo(SERVICE_URL);
     }
 
     public sendMessage(message: String){

@@ -2,11 +2,19 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
+        "moduleResolution": "node",
         "sourceMap": true,
+        "experimentalDecorators": true,
+        "lib":[ "es2015", "dom" ],
         "outDir": "bin",
         "typeRoots": [
             "node_modules/@types"
-        ]
+        ],
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true
     },
     "include": [
         "server/**/*",
